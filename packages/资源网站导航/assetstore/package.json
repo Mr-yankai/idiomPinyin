@@ -1,0 +1,21 @@
+{
+  "name": "assetstore",
+  "version": "0.0.1",
+  "description": "一个资源网址导航插件",
+  "author": "Sean",
+  "main": "main.js",
+  "main-menu": {
+    "i18n:MAIN_MENU.package.title/i18n:assetstore.assetnav/i18n:assetstore.open": {
+      "message": "assetstore:open"
+    }
+  },
+  "panel": {
+    "main": "panel/index.js",
+    "type": "dockable",
+    "title": "i18n:assetstore.assetnav",
+    "resizable": true,
+    "width": 400,
+    "height": 300
+  },
+  "reload": {}
+}
